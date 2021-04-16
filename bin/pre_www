@@ -1,6 +1,2 @@
 #!/bin/sh
-if [ "$NODE_ENV" = "local" ]; then
-  nodemon -L app.js
-else
-  node app.js
-fi
+npm start
